@@ -1,3 +1,5 @@
+Python having 32 keywords
+
  Function => A Group of Statments
  def wish(name):
    print("Good Morning",name)
