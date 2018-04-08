@@ -1,0 +1,399 @@
+print("Hello WOrld")
+
+# Let comments
+
+OPerator
+
+Mathe
+
+
+Rules:
+
+Use 4 Spaces for Identation
+
+Never mix tab and spaces
+One balnk line between functions
+Two blank lines between classes
+
+
+File Read :
+For each line  in file
+if line does not start with # 
+print line 
+
+=========================
+import this
+
+Duck Type :==>>
+
+No Need to specify data Types 
+
+a=2
+type(a)
+<class 'int'>
+
+>>> str='ppp'
+ type(str)
+ 
+ bool:Boolean  True and false
+ int
+ float
+ string
+ 
+ float(string)
+ a=1
+ type(a)
+ str(a)
+ type(a)
+
+ 
+ help()
+ dir()
+ name="Hderpar"
+ dir(name)
+ 
+ name.capitalize()
+ name.upper()
+ 
+ name.split()
+ 
+ 
+ 
+ 
+ 
+ 
+ name="Hyder python group"
+ name.split(' ')
+ 
+ 'India's Best'
+ 
+ 'India\s' Best '
+ 
+ ===================================================
+ input()
+ 
+ >>> input("plz tell me your name")
+ int(input('Tell me age'))
+ 
+ 
+ ======================
+ 
+ a= input('Enter something \n\t')
+print("ype of variable %s",%type(a))
+
+help(str)
+
+
+name="Sumith"
+
+Multiple Assignments
+
+a,b=4,5
+$a
+$b
+Swapping values 
+a,b=b,age
+ 
+ 
+ 
+ def fiba(num):
+     if num==0:
+	     return 0
+a,b=0,1
+while b<100 :
+   print("")
+
+
+// Remember 4 space indentation
+
+if expression:
+   do this
+
+if X:
+    do this
+if not x:
+
+
+while n<11:
+    print(n)
+	
+for Loops
+L=[1,2,3,4]
+for i in L:
+    print(i)	
+	
+	
+pyhon 2: 32 Keyword
+
+
+
+
+
+in
+rang
+
+for i in range(10):
+    print(i)
+	
+	
+	Slicing
+	[start ,stop,step]
+
+	Applicatble to any iterable collections
+	
+
+word ="Python3 Prgming"
+for letter in word:
+ if letter=='3':
+   continue
+   
+
+   
+List
+Tuples
+Set 
+Dictonary
+strings
+
+L=[1,2,3,4]
+ L[1]
+ 
+ L
+ 
+ Muttable & Imttuable
+ L =[1,2,'aadd',0.4]
+ L.append(9)
+ L.pop()
+ 
+ 
+ L.sor()
+ L[1]
+ len(L)
+ 
+ dir(L)
+ help(L)
+ help(L.count)
+ 
+ 
+ 
+ 
+ Tuples :
+ 
+ Tuples are immutable 
+ Tuples are created in parentheses or using comma
+ T=(1,2,3,4,4,5)
+ T=(1,2,3,3)
+ type(T)
+      <class 'tuple'>
+	  
+	  Set : useful in fast membership check sine 
+	  set1= set()
+	  
+set mutable 
+
+list =set(L)
+
+D= dict()
+type(D)
+
+
+'Perl'
+>>> set1=set()
+>>> dir(set1)
+>>> D=dict()
+>>> type(D)
+<type 'dict'>
+>>> D={'name':'anji','age':10}
+>>> D
+{'age': 10, 'name': 'anji'}
+>>> str(D)
+>>> hash(a)
+814167418
+>>>	  
+	  
+Dict={} 
+
+dir(D)
+D={'name':['prash']}
+D['ages']=[1,2,3,4,5]
+D.keys()
+D.pop()
+D.pop('ages')
+D.get('names','')
+
+D.setDefault('ages','24')
+D['Address']='Pune'
+
+for i,j in D.items():
+    print(i)
+	print(j)
+	
+Functions :
+======================================================
+def functions():
+    print("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+def output(text)
+   print 
+   
+ 
+def count_gc(sequenc):
+ 
+
+if not sequenc:
+    return 0
+	
+============================
+
+class Aircraft:
+ def _init_(self,registration):
+      self.registration=registration
+ def registration(self):
+ return self._registration
+def num_seats(self):
+  rows,row_seats=self.seating_plan()
+  return len(rows)*len(row_seats)
+
+
+class AirbsA319(Aircraft):
+ def model(self):
+   return "AirBus A319"
+  def seating_plan(self):
+   return range(1,23) ,"ABBBC"
+
+class Boeing777(Aircraft):
+  def model(self):
+     return "Boeing 777"
+  def  seating_plan(self):
+  
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
