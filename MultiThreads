@@ -1,0 +1,107 @@
+Multi Threading
+
+Multitasking
+
+
+2 types of multi tasking
+
+i)Process Based 
+ii)Thread based
+
+Process: Executeing the several tasks simutaneously where each task is separate indepdenedent process.
+  OSLevel
+  
+Thread Based :
+    Execute several tasks simultuaneosuly where each task is seperate indepedent part of same program. and each indepedent part is called a thread
+     We can reduce execution time and perfomace
+	 
+
+10K Lines of Code: 
+Indepedent jobs is there we can go Multiple Threading 
+
+Thread is module
+
+==> Indepedent part of progrm
+==> it is task or action
+==> an indepedent flow of execution
+==> it is part of process
+
+
+Thread is flow of execution 
+  ...Flow of exeuction
+  --.for every thread there some job aviable
+  job
+  
+  Single Threag progm: only one thread and one by one one flow of execution
+  Multiple Thread progm: 
+  
+  
+  threading
+  current_thread().getName()
+  
+  
+  if current thread will return current thread obj then in case of multi thread envemnt also it will give always the current thread name..
+  becaz this code will execte by any one thread at a time
+  
+  
+  The ways of creating thread in python
+    3 ways
+	 1) Creating threading with out using any class
+	 2) creating a thread by extending Thread class
+	 2) creating a thread by with out extending Thread class
+	 
+	 
+MainThread cretes child thread object
+ChildThread object is responsible to execute display method(job)
+
+t=Thread(target=disply) # MainThread cretes child thread object
+t.start() # Main Thread starts ChildThread
+
+
+class A:
+	 stmt1
+     stm2
+	
+class B(A): # class B extends A
+	stmt-1
+	stmt-2
+   
+a=A()
+
+
+
+============================
+Way 2: Extending Thread class
+	
+from threading import *;
+class MyThread(Thread):
+	   def run(self):
+			for i in range(1,10):
+				print("Child Thread-1",i)
+				
+## OVerwriting self is current object like this 				
+t=MyThread()# Here we are exetenidn thread class
+t.start()
+
+============================
+Way 3: With out Extending Thread class
+	
+
+Name
+MainThread
+t=Thread() ==> By Default Thread1
+
+How to get and set name of the Thread
+t.getName()
+t.setName(name)
+
+from Threading import *;
+print(current_thread().getName())
+current_thread().setName("myName");
+print(current_thread().getName())
+
+
+
+
+	
+  

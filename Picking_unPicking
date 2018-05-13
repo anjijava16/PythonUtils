@@ -1,0 +1,11 @@
+Picking & UpPicking
+Picking ==> Ser
+
+picking : 
+----------------------
+pickle.dump(object,file);
+
+
+unpicking :
+------------------------
+pickle.load(file)
