@@ -3,6 +3,12 @@
 # https://docs.python.org/2/library/
 
 
+# Python Coding standards-best-practices
+
+## https://www.python.org/dev/peps/pep-0008/
+
+# ========================================================
+
 # Python Setup in Windows (Using Windows System)
 from pyspark import *;
 import os
