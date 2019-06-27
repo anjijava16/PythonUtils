@@ -16,6 +16,36 @@ https://realpython.com/intermediate-python-project-ideas/#bulk-file-rename-tool
 
 https://www.programcreek.com/python/example/56509/dateutil
 
+```
+
+file_utils (read/write into csv or tab delimiter experments)
+exception_utils
+date_utils
+json_utils
+db_utils
+property_utils
+yaml_utils
+http_utils
+sdk_utils
+thread_utils(process method) :
+     pool = Pool(10)
+     pool.map(self.methodName, dbNameVariable)
+thread_pool
+abstract_class(BaseJob)
+Class & object class
+
+app_jobs
+app_lib-->app_framework
+					config/
+					utils/
+	                core/
+			app_scripts/
+			
+			
+
+
+```
+
 
 
 # ========================================================
