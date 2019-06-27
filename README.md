@@ -7,6 +7,17 @@
 
 ## https://www.python.org/dev/peps/pep-0008/
 
+
+https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3
+
+
+https://realpython.com/intermediate-python-project-ideas/#bulk-file-rename-tool
+
+
+https://www.programcreek.com/python/example/56509/dateutil
+
+
+
 # ========================================================
 
 # Python Setup in Windows (Using Windows System)
